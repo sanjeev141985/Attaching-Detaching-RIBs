@@ -1,0 +1,33 @@
+PODS:
+  - Contentful (1.0.1):
+    - Interstellar (~> 2.1.0)
+  - Interstellar (2.1.0):
+    - Interstellar/Core (= 2.1.0)
+    - Interstellar/Warpdrive (= 2.1.0)
+  - Interstellar/Core (2.1.0)
+  - Interstellar/Warpdrive (2.1.0):
+    - Interstellar/Core
+  - RIBs (0.9.1):
+    - RxSwift (~> 4.0)
+  - RxCocoa (4.0.0):
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+  - SnapKit (4.0.0)
+
+DEPENDENCIES:
+  - Contentful (~> 1.0.0-beta5)
+  - RIBs
+  - RxCocoa (~> 4.0.0)
+  - SnapKit (~> 4.0.0)
+
+SPEC CHECKSUMS:
+  Contentful: 3aea2646307c87f17cebd0ed26200aa63b5edc05
+  Interstellar: fdc492e0866f49857a423d47a453b41d1e31f620
+  RIBs: 879184fbca567425c488d6b3d14a9c5abfbf9d47
+  RxCocoa: d62846ca96495d862fa4c59ea7d87e5031d7340e
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+
+PODFILE CHECKSUM: d61be8e46a1f2185201dcaf446e33d8ed478d73e
+
+COCOAPODS: 1.4.0

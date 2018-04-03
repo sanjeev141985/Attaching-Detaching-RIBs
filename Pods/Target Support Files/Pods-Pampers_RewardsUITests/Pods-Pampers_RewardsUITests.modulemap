@@ -1,0 +1,6 @@
+framework module Pods_Pampers_RewardsUITests {
+  umbrella header "Pods-Pampers_RewardsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

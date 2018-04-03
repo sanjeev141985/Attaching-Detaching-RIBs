@@ -1,0 +1,838 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22C147C717E5931FD5CD7562 /* Pods_Pampers_RewardsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8E7A1C37ACB12CAF1D70DEA /* Pods_Pampers_RewardsUITests.framework */; };
+		287A7614DC9E931C06B26D97 /* Pods_Pampers_RewardsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 878F52A2F0BF92CFF77567BA /* Pods_Pampers_RewardsTests.framework */; };
+		897D3371204039C700C82EFD /* AppComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897D3370204039C700C82EFD /* AppComponent.swift */; };
+		897D33732043FC2600C82EFD /* RootComponent+Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 897D33722043FC2600C82EFD /* RootComponent+Login.swift */; };
+		898249A6203AF71A0045A5F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898249A5203AF71A0045A5F3 /* AppDelegate.swift */; };
+		898249A8203AF71A0045A5F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898249A7203AF71A0045A5F3 /* ViewController.swift */; };
+		898249AB203AF71B0045A5F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 898249A9203AF71A0045A5F3 /* Main.storyboard */; };
+		898249AD203AF71B0045A5F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 898249AC203AF71B0045A5F3 /* Assets.xcassets */; };
+		898249B0203AF71B0045A5F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 898249AE203AF71B0045A5F3 /* LaunchScreen.storyboard */; };
+		898249BB203AF71B0045A5F3 /* Pampers_RewardsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898249BA203AF71B0045A5F3 /* Pampers_RewardsTests.swift */; };
+		898249C6203AF71B0045A5F3 /* Pampers_RewardsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898249C5203AF71B0045A5F3 /* Pampers_RewardsUITests.swift */; };
+		898249D8203AF77B0045A5F3 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898249D4203AF77B0045A5F3 /* RootRouter.swift */; };
+		898249D9203AF77B0045A5F3 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898249D5203AF77B0045A5F3 /* RootViewController.swift */; };
+		898249DA203AF77B0045A5F3 /* RootBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898249D6203AF77B0045A5F3 /* RootBuilder.swift */; };
+		898249DB203AF77B0045A5F3 /* RootInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898249D7203AF77B0045A5F3 /* RootInteractor.swift */; };
+		898249E6203BE6A10045A5F3 /* LoginRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898249E1203BE6A10045A5F3 /* LoginRouter.swift */; };
+		898249E7203BE6A10045A5F3 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898249E2203BE6A10045A5F3 /* LoginViewController.swift */; };
+		898249E8203BE6A10045A5F3 /* LoginBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898249E3203BE6A10045A5F3 /* LoginBuilder.swift */; };
+		898249E9203BE6A10045A5F3 /* LoginInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 898249E4203BE6A10045A5F3 /* LoginInteractor.swift */; };
+		898249EA203BE6A10045A5F3 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 898249E5203BE6A10045A5F3 /* LoginViewController.xib */; };
+		D39FA530BBAF4650E674366E /* Pods_Pampers_Rewards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED7F2823204C31321CC13A9 /* Pods_Pampers_Rewards.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		898249B7203AF71B0045A5F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8982499A203AF71A0045A5F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 898249A1203AF71A0045A5F3;
+			remoteInfo = Pampers_Rewards;
+		};
+		898249C2203AF71B0045A5F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8982499A203AF71A0045A5F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 898249A1203AF71A0045A5F3;
+			remoteInfo = Pampers_Rewards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		394758D6A24DD846500E1C42 /* Pods-Pampers_RewardsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pampers_RewardsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pampers_RewardsUITests/Pods-Pampers_RewardsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D4EF1BAAA313C1E790CA9CC /* Pods-Pampers_RewardsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pampers_RewardsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pampers_RewardsTests/Pods-Pampers_RewardsTests.release.xcconfig"; sourceTree = "<group>"; };
+		878F52A2F0BF92CFF77567BA /* Pods_Pampers_RewardsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pampers_RewardsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		88089C726914547493156D31 /* Pods-Pampers_Rewards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pampers_Rewards.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pampers_Rewards/Pods-Pampers_Rewards.debug.xcconfig"; sourceTree = "<group>"; };
+		897D3370204039C700C82EFD /* AppComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppComponent.swift; sourceTree = "<group>"; };
+		897D33722043FC2600C82EFD /* RootComponent+Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootComponent+Login.swift"; sourceTree = "<group>"; };
+		898249A2203AF71A0045A5F3 /* Pampers_Rewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pampers_Rewards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		898249A5203AF71A0045A5F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		898249A7203AF71A0045A5F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		898249AA203AF71B0045A5F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		898249AC203AF71B0045A5F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		898249AF203AF71B0045A5F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		898249B1203AF71B0045A5F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		898249B6203AF71B0045A5F3 /* Pampers_RewardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pampers_RewardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		898249BA203AF71B0045A5F3 /* Pampers_RewardsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pampers_RewardsTests.swift; sourceTree = "<group>"; };
+		898249BC203AF71B0045A5F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		898249C1203AF71B0045A5F3 /* Pampers_RewardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Pampers_RewardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		898249C5203AF71B0045A5F3 /* Pampers_RewardsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pampers_RewardsUITests.swift; sourceTree = "<group>"; };
+		898249C7203AF71B0045A5F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		898249D4203AF77B0045A5F3 /* RootRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		898249D5203AF77B0045A5F3 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		898249D6203AF77B0045A5F3 /* RootBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootBuilder.swift; sourceTree = "<group>"; };
+		898249D7203AF77B0045A5F3 /* RootInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootInteractor.swift; sourceTree = "<group>"; };
+		898249E1203BE6A10045A5F3 /* LoginRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRouter.swift; sourceTree = "<group>"; };
+		898249E2203BE6A10045A5F3 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		898249E3203BE6A10045A5F3 /* LoginBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginBuilder.swift; sourceTree = "<group>"; };
+		898249E4203BE6A10045A5F3 /* LoginInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInteractor.swift; sourceTree = "<group>"; };
+		898249E5203BE6A10045A5F3 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		8ED7F2823204C31321CC13A9 /* Pods_Pampers_Rewards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pampers_Rewards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4C87156F399BE72D7D587E3 /* Pods-Pampers_Rewards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pampers_Rewards.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pampers_Rewards/Pods-Pampers_Rewards.release.xcconfig"; sourceTree = "<group>"; };
+		A8E7A1C37ACB12CAF1D70DEA /* Pods_Pampers_RewardsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pampers_RewardsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D520E1E66384611B69445483 /* Pods-Pampers_RewardsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pampers_RewardsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pampers_RewardsUITests/Pods-Pampers_RewardsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F732C03D1038834519110A8D /* Pods-Pampers_RewardsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pampers_RewardsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pampers_RewardsTests/Pods-Pampers_RewardsTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8982499F203AF71A0045A5F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D39FA530BBAF4650E674366E /* Pods_Pampers_Rewards.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898249B3203AF71B0045A5F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287A7614DC9E931C06B26D97 /* Pods_Pampers_RewardsTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898249BE203AF71B0045A5F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22C147C717E5931FD5CD7562 /* Pods_Pampers_RewardsUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6288CDAE7758E5C73B0D2285 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88089C726914547493156D31 /* Pods-Pampers_Rewards.debug.xcconfig */,
+				A4C87156F399BE72D7D587E3 /* Pods-Pampers_Rewards.release.xcconfig */,
+				F732C03D1038834519110A8D /* Pods-Pampers_RewardsTests.debug.xcconfig */,
+				4D4EF1BAAA313C1E790CA9CC /* Pods-Pampers_RewardsTests.release.xcconfig */,
+				394758D6A24DD846500E1C42 /* Pods-Pampers_RewardsUITests.debug.xcconfig */,
+				D520E1E66384611B69445483 /* Pods-Pampers_RewardsUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		740AC4283E470E9E85C98177 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8ED7F2823204C31321CC13A9 /* Pods_Pampers_Rewards.framework */,
+				878F52A2F0BF92CFF77567BA /* Pods_Pampers_RewardsTests.framework */,
+				A8E7A1C37ACB12CAF1D70DEA /* Pods_Pampers_RewardsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89824999203AF71A0045A5F3 = {
+			isa = PBXGroup;
+			children = (
+				898249A4203AF71A0045A5F3 /* Pampers_Rewards */,
+				898249B9203AF71B0045A5F3 /* Pampers_RewardsTests */,
+				898249C4203AF71B0045A5F3 /* Pampers_RewardsUITests */,
+				898249A3203AF71A0045A5F3 /* Products */,
+				6288CDAE7758E5C73B0D2285 /* Pods */,
+				740AC4283E470E9E85C98177 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		898249A3203AF71A0045A5F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				898249A2203AF71A0045A5F3 /* Pampers_Rewards.app */,
+				898249B6203AF71B0045A5F3 /* Pampers_RewardsTests.xctest */,
+				898249C1203AF71B0045A5F3 /* Pampers_RewardsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		898249A4203AF71A0045A5F3 /* Pampers_Rewards */ = {
+			isa = PBXGroup;
+			children = (
+				898249E0203BE67B0045A5F3 /* Login */,
+				898249D3203AF7320045A5F3 /* Root */,
+				898249A5203AF71A0045A5F3 /* AppDelegate.swift */,
+				897D3370204039C700C82EFD /* AppComponent.swift */,
+				898249A7203AF71A0045A5F3 /* ViewController.swift */,
+				898249A9203AF71A0045A5F3 /* Main.storyboard */,
+				898249AC203AF71B0045A5F3 /* Assets.xcassets */,
+				898249AE203AF71B0045A5F3 /* LaunchScreen.storyboard */,
+				898249B1203AF71B0045A5F3 /* Info.plist */,
+			);
+			path = Pampers_Rewards;
+			sourceTree = "<group>";
+		};
+		898249B9203AF71B0045A5F3 /* Pampers_RewardsTests */ = {
+			isa = PBXGroup;
+			children = (
+				898249BA203AF71B0045A5F3 /* Pampers_RewardsTests.swift */,
+				898249BC203AF71B0045A5F3 /* Info.plist */,
+			);
+			path = Pampers_RewardsTests;
+			sourceTree = "<group>";
+		};
+		898249C4203AF71B0045A5F3 /* Pampers_RewardsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				898249C5203AF71B0045A5F3 /* Pampers_RewardsUITests.swift */,
+				898249C7203AF71B0045A5F3 /* Info.plist */,
+			);
+			path = Pampers_RewardsUITests;
+			sourceTree = "<group>";
+		};
+		898249D3203AF7320045A5F3 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				898249D4203AF77B0045A5F3 /* RootRouter.swift */,
+				898249D5203AF77B0045A5F3 /* RootViewController.swift */,
+				898249D6203AF77B0045A5F3 /* RootBuilder.swift */,
+				898249D7203AF77B0045A5F3 /* RootInteractor.swift */,
+				897D33722043FC2600C82EFD /* RootComponent+Login.swift */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		898249E0203BE67B0045A5F3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				898249E1203BE6A10045A5F3 /* LoginRouter.swift */,
+				898249E2203BE6A10045A5F3 /* LoginViewController.swift */,
+				898249E3203BE6A10045A5F3 /* LoginBuilder.swift */,
+				898249E4203BE6A10045A5F3 /* LoginInteractor.swift */,
+				898249E5203BE6A10045A5F3 /* LoginViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		898249A1203AF71A0045A5F3 /* Pampers_Rewards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 898249CA203AF71B0045A5F3 /* Build configuration list for PBXNativeTarget "Pampers_Rewards" */;
+			buildPhases = (
+				E3788BE08C4B6AF21BE0CA6F /* [CP] Check Pods Manifest.lock */,
+				8982499E203AF71A0045A5F3 /* Sources */,
+				8982499F203AF71A0045A5F3 /* Frameworks */,
+				898249A0203AF71A0045A5F3 /* Resources */,
+				89BAF2B4B0206F4859D4EA66 /* [CP] Embed Pods Frameworks */,
+				6F670A80254B7CB9FD0306BE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pampers_Rewards;
+			productName = Pampers_Rewards;
+			productReference = 898249A2203AF71A0045A5F3 /* Pampers_Rewards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		898249B5203AF71B0045A5F3 /* Pampers_RewardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 898249CD203AF71B0045A5F3 /* Build configuration list for PBXNativeTarget "Pampers_RewardsTests" */;
+			buildPhases = (
+				9458AE5D64884C52AB1FF799 /* [CP] Check Pods Manifest.lock */,
+				898249B2203AF71B0045A5F3 /* Sources */,
+				898249B3203AF71B0045A5F3 /* Frameworks */,
+				898249B4203AF71B0045A5F3 /* Resources */,
+				1A96D9B796C781F4D0C4F5DE /* [CP] Embed Pods Frameworks */,
+				DC63E820B6E044B09D95D4D6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				898249B8203AF71B0045A5F3 /* PBXTargetDependency */,
+			);
+			name = Pampers_RewardsTests;
+			productName = Pampers_RewardsTests;
+			productReference = 898249B6203AF71B0045A5F3 /* Pampers_RewardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		898249C0203AF71B0045A5F3 /* Pampers_RewardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 898249D0203AF71B0045A5F3 /* Build configuration list for PBXNativeTarget "Pampers_RewardsUITests" */;
+			buildPhases = (
+				54319D17CD91DDD44142DA07 /* [CP] Check Pods Manifest.lock */,
+				898249BD203AF71B0045A5F3 /* Sources */,
+				898249BE203AF71B0045A5F3 /* Frameworks */,
+				898249BF203AF71B0045A5F3 /* Resources */,
+				67785D3C074002284E72709B /* [CP] Embed Pods Frameworks */,
+				27A7F3586D2C5E246E989D8E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				898249C3203AF71B0045A5F3 /* PBXTargetDependency */,
+			);
+			name = Pampers_RewardsUITests;
+			productName = Pampers_RewardsUITests;
+			productReference = 898249C1203AF71B0045A5F3 /* Pampers_RewardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8982499A203AF71A0045A5F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = thinksysuser;
+				TargetAttributes = {
+					898249A1203AF71A0045A5F3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					898249B5203AF71B0045A5F3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 898249A1203AF71A0045A5F3;
+					};
+					898249C0203AF71B0045A5F3 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 898249A1203AF71A0045A5F3;
+					};
+				};
+			};
+			buildConfigurationList = 8982499D203AF71A0045A5F3 /* Build configuration list for PBXProject "Pampers_Rewards" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89824999203AF71A0045A5F3;
+			productRefGroup = 898249A3203AF71A0045A5F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				898249A1203AF71A0045A5F3 /* Pampers_Rewards */,
+				898249B5203AF71B0045A5F3 /* Pampers_RewardsTests */,
+				898249C0203AF71B0045A5F3 /* Pampers_RewardsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		898249A0203AF71A0045A5F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898249EA203BE6A10045A5F3 /* LoginViewController.xib in Resources */,
+				898249B0203AF71B0045A5F3 /* LaunchScreen.storyboard in Resources */,
+				898249AD203AF71B0045A5F3 /* Assets.xcassets in Resources */,
+				898249AB203AF71B0045A5F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898249B4203AF71B0045A5F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898249BF203AF71B0045A5F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A96D9B796C781F4D0C4F5DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pampers_RewardsTests/Pods-Pampers_RewardsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27A7F3586D2C5E246E989D8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pampers_RewardsUITests/Pods-Pampers_RewardsUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54319D17CD91DDD44142DA07 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pampers_RewardsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67785D3C074002284E72709B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pampers_RewardsUITests/Pods-Pampers_RewardsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F670A80254B7CB9FD0306BE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pampers_Rewards/Pods-Pampers_Rewards-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		89BAF2B4B0206F4859D4EA66 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Pampers_Rewards/Pods-Pampers_Rewards-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Contentful/Contentful.framework",
+				"${BUILT_PRODUCTS_DIR}/Interstellar/Interstellar.framework",
+				"${BUILT_PRODUCTS_DIR}/RIBs/RIBs.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Contentful.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Interstellar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RIBs.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pampers_Rewards/Pods-Pampers_Rewards-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9458AE5D64884C52AB1FF799 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pampers_RewardsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC63E820B6E044B09D95D4D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pampers_RewardsTests/Pods-Pampers_RewardsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3788BE08C4B6AF21BE0CA6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Pampers_Rewards-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8982499E203AF71A0045A5F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898249DB203AF77B0045A5F3 /* RootInteractor.swift in Sources */,
+				898249A8203AF71A0045A5F3 /* ViewController.swift in Sources */,
+				898249D8203AF77B0045A5F3 /* RootRouter.swift in Sources */,
+				897D33732043FC2600C82EFD /* RootComponent+Login.swift in Sources */,
+				898249DA203AF77B0045A5F3 /* RootBuilder.swift in Sources */,
+				898249E7203BE6A10045A5F3 /* LoginViewController.swift in Sources */,
+				898249D9203AF77B0045A5F3 /* RootViewController.swift in Sources */,
+				898249E8203BE6A10045A5F3 /* LoginBuilder.swift in Sources */,
+				898249E6203BE6A10045A5F3 /* LoginRouter.swift in Sources */,
+				898249E9203BE6A10045A5F3 /* LoginInteractor.swift in Sources */,
+				897D3371204039C700C82EFD /* AppComponent.swift in Sources */,
+				898249A6203AF71A0045A5F3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898249B2203AF71B0045A5F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898249BB203AF71B0045A5F3 /* Pampers_RewardsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		898249BD203AF71B0045A5F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				898249C6203AF71B0045A5F3 /* Pampers_RewardsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		898249B8203AF71B0045A5F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 898249A1203AF71A0045A5F3 /* Pampers_Rewards */;
+			targetProxy = 898249B7203AF71B0045A5F3 /* PBXContainerItemProxy */;
+		};
+		898249C3203AF71B0045A5F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 898249A1203AF71A0045A5F3 /* Pampers_Rewards */;
+			targetProxy = 898249C2203AF71B0045A5F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		898249A9203AF71A0045A5F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				898249AA203AF71B0045A5F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		898249AE203AF71B0045A5F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				898249AF203AF71B0045A5F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		898249C8203AF71B0045A5F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		898249C9203AF71B0045A5F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		898249CB203AF71B0045A5F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88089C726914547493156D31 /* Pods-Pampers_Rewards.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TCD6ERDJF;
+				INFOPLIST_FILE = Pampers_Rewards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thinksys.Pampers-Rewards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		898249CC203AF71B0045A5F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4C87156F399BE72D7D587E3 /* Pods-Pampers_Rewards.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TCD6ERDJF;
+				INFOPLIST_FILE = Pampers_Rewards/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thinksys.Pampers-Rewards";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		898249CE203AF71B0045A5F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F732C03D1038834519110A8D /* Pods-Pampers_RewardsTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TCD6ERDJF;
+				INFOPLIST_FILE = Pampers_RewardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thinksys.Pampers-RewardsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pampers_Rewards.app/Pampers_Rewards";
+			};
+			name = Debug;
+		};
+		898249CF203AF71B0045A5F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D4EF1BAAA313C1E790CA9CC /* Pods-Pampers_RewardsTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TCD6ERDJF;
+				INFOPLIST_FILE = Pampers_RewardsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thinksys.Pampers-RewardsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pampers_Rewards.app/Pampers_Rewards";
+			};
+			name = Release;
+		};
+		898249D1203AF71B0045A5F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 394758D6A24DD846500E1C42 /* Pods-Pampers_RewardsUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TCD6ERDJF;
+				INFOPLIST_FILE = Pampers_RewardsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thinksys.Pampers-RewardsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pampers_Rewards;
+			};
+			name = Debug;
+		};
+		898249D2203AF71B0045A5F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D520E1E66384611B69445483 /* Pods-Pampers_RewardsUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3TCD6ERDJF;
+				INFOPLIST_FILE = Pampers_RewardsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thinksys.Pampers-RewardsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Pampers_Rewards;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8982499D203AF71A0045A5F3 /* Build configuration list for PBXProject "Pampers_Rewards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898249C8203AF71B0045A5F3 /* Debug */,
+				898249C9203AF71B0045A5F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		898249CA203AF71B0045A5F3 /* Build configuration list for PBXNativeTarget "Pampers_Rewards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898249CB203AF71B0045A5F3 /* Debug */,
+				898249CC203AF71B0045A5F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		898249CD203AF71B0045A5F3 /* Build configuration list for PBXNativeTarget "Pampers_RewardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898249CE203AF71B0045A5F3 /* Debug */,
+				898249CF203AF71B0045A5F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		898249D0203AF71B0045A5F3 /* Build configuration list for PBXNativeTarget "Pampers_RewardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898249D1203AF71B0045A5F3 /* Debug */,
+				898249D2203AF71B0045A5F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8982499A203AF71A0045A5F3 /* Project object */;
+}
